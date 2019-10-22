@@ -526,19 +526,23 @@ img {
   height: 100%;
 }
 
-.img-wrapper {
+.container .row article {
+  margin-bottom: 35px;
+}
+
+.image-wrapper {
   position: relative;
   display: flex;
   height: 75%;
 }
 
 @media (max-width: 575px) {
-  .img-wrapper {
+  .image-wrapper {
     height: 593px;
   }
 }
 
-.img-responsive {
+.image {
   max-width: 100%;
   height: auto;
   object-fit: cover;
@@ -547,16 +551,8 @@ img {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.img-responsive:hover {
+.image:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-.nav-bar {
-  background: #1a2980;
-  background: -webkit-linear-gradient(right, #26d0ce, #1a2980);
-  background: linear-gradient(to right, #26d0ce, #1a2980);
-  height: 100px;
-  border: 1px solid;
 }
 
 .logo {
