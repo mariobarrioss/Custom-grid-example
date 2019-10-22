@@ -1,11 +1,6 @@
 @font-face {
   font-family: "Genericons";
-  src: url("https://g.newsweek.com/www/fonts/Genericons.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://g.newsweek.com/www/fonts/Genericons.woff") format("woff"),
-    url("https://g.newsweek.com/www/fonts/Genericons.ttf") format("truetype"),
-    url("https://g.newsweek.com/www/fonts/Genericons.svg#Genericons")
-      format("svg");
+  src: url("https://g.newsweek.com/www/fonts/Genericons.eot?#iefix") format("embedded-opentype"), url("https://g.newsweek.com/www/fonts/Genericons.woff") format("woff"), url("https://g.newsweek.com/www/fonts/Genericons.ttf") format("truetype"), url("https://g.newsweek.com/www/fonts/Genericons.svg#Genericons") format("svg");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
